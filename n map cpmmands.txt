@@ -37,6 +37,11 @@ Command: nmap 172.16.1.*
 
 
 
+Wireshark steps to follow:
+	Start Packet Capture: Click on the capture button to start monitoring network traffic in real- time. 
+	Apply Filters: Use display filters to isolate specific packets, such as HTTP traffic (http), TCP packets (tcp), or specific IP addresses (ip.addr == 192.168.1.1). 
+	Analyze Traffic: Inspect captured packets for anomalies, unknown sources, or unauthorized communications. 
+	Export and Save Data: Wireshark allows exporting captured data for further analysis in security tools.
 
 
 
@@ -44,6 +49,10 @@ Command: nmap 172.16.1.*
 
 
 
+opened the .html HTTP-Wireshark File in the browser & providing username and password for sign in 
+successfully signed in 
+captured HTTP protocol packets by filtering
+Displays the raw hexadecimal and ASCII representation of the packet data 
 
 
 
